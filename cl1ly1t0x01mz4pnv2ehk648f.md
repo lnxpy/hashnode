@@ -211,12 +211,12 @@ class SchoolTestCase(TestCase):
     @classmethod    # new
     def setUpClass(cls):
        print('setUpClass method called!!')
-       self.school = School()
+       cls.school = School()
     
     @classmethod    # new
     def tearDownClass(cls):
         print('tearDownClass method called!!')
-        self.school.terminate()
+        cls.school.terminate()
 
     def test_add_course(self):
       self.school.addCourse('Math')
