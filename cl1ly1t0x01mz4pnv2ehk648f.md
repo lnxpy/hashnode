@@ -282,7 +282,7 @@ class TestCase(unittest.TestCase):
     @classmethod
     def tearDownClass(cls, do_save):
         if do_save:
-            # import data to the original db
+            # export data to the original db
             pass
         cls.db.terminate()
 
