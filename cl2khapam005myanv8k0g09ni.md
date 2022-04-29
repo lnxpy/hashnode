@@ -41,7 +41,7 @@ If you stage your changes and open the text editor once you want to commit your 
 Finally, we can simply say that if you keep your commits simple and short as well as your commit messages, you'll almost hit the target.
 
 ### Different Git Conventions
-Git doesn't make conventions at all. Conventions are designed by companies and teams. A team may find emojis so useful in their platform but the other one wants to keep it simple stupid. A team might push directly to the `main` branch (also known as the single-branch convention) but the other team has different branches and only pushes the release commits to the `main` branch. If you're working somewhere where their conventions might not look good to you, you better follow them. The time you spend on changing their minds would probably help you to fix some bugs.
+Git doesn't make conventions at all. Conventions are designed by companies and teams. A team may find emojis so useful in their platform but the other one wants to keep it simple stupid. A team might push directly to the `main` branch (also known as the single-branch convention) but the other team has a `development` branch and only pushes the release commits to the `main` branch. If you're working somewhere where their conventions might not look good to you, you better follow them. The time you spend on changing their minds would probably help you to fix some bugs.
 
 ### Conclusion
 In this article, we discover some basic `git commit` conventions and best practices. We talked about the pros and cons of each practice and finally, figured out that Git is not responsible for conventions and they are made by companies and startups.
