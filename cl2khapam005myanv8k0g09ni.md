@@ -6,7 +6,7 @@ Committing changes is a common action that many developers do most of the time i
 Consider your changes as a performer. Before you commit your changes, your changes should have something to present on the stage. If they perform well, they are qualified to get committed otherwise, they'll be discarded. So it doesn't make sense if your changes don't perform but get committed.
 
 #### When and what to stage
-Since Git is a line-based version controlling system which means, it tracks the lines that have been changed; not the actual phrase or word, you have to make sure there is a relation between the changes you make on the lines. If you can describe the change in a few words so the next developer(s) can easily understand what you've done based on your commit message, you're all good. Even though you can make multiple lines of messages for your commits, never combine changes together.
+You have to make sure there is a relation between the changes you make on the lines. If you can describe the change in a few words so the next developer(s) can easily understand what you've done based on your commit message, you're all good. Even though you can make multiple lines of messages for your commits, never combine changes together.
 
 
 ### 2. Committing Phase
