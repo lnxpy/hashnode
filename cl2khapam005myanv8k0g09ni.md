@@ -1,11 +1,12 @@
 ## Commit Like a Pro
 
-Committing changes is a common action that many developers do most of the time in case of contribution. You stage your changes and commit them so then they will be trackable in the [history](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History). But what about conventions? Any difference between a dirty commit and a clean fresh one? Using emojis for the commit message title? In this article, we are going to talk about some common conventions and `git commit` best practices in order to make perfect commits.
+Committing changes is one of the common things that many developers do sometimes in case of contribution. You stage your changes and commit them so they will be trackable in the [history](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History). But what about conventions? Any difference between a dirty commit and a clean fresh one? Using emojis for the commit message title? In this article, we are going to talk about some common conventions and `git commit` best practices in order to make perfect commits.
 
 ### 1. Staging Phase
+
 Consider your changes as a performer. Before you commit your changes, your changes should have something to present on the stage. If they perform well, they are qualified to get committed otherwise, they'll be discarded. So it doesn't make sense if your changes don't perform but get committed.
 
-#### When and what to stage
+#### 1.1. When and what to stage
 You have to make sure there is a relation between the changes you make on the lines. If you can describe the change in a few words so the next developer(s) can easily understand what you've done based on your commit message, you're all good. Even though you can make multiple lines of messages for your commits, never combine changes together.
 
 
@@ -22,8 +23,17 @@ You can have multiple files changed in some blocks and add those blocks from any
 #### 2.3. Commit messages
 Commit Message is the point where you contact the next contributor who's going to contribute to the same line(s) at a time. Let them feel pleased when they read your message. Basically, when you want to commit the staged changes, you need to put a message on them. Each commit message has a title and a description and some metadata. The developer needs to fill out the title. However, filling out the description is an optional task. The best practice is to keep it short and sensible that other developers be able to understand your changes via reading the commit title.
 
-#### 2.4. Don't use emojis
-I've seen some repositories have their own conventions in case of making commit messages. They actually use emojis to show the status of a commit whether it was a BugFix or Test or whatever kind of commit.
+#### 2.4. Manage issues with special keywords in the commit messages
+Some platforms that use Git as their repository controller such as GitHub, ran further and have special features on the Git stuff. As an example, if you use keywords `Close`, `Closes`, `Closed`, `Fix`, etc before the issue tag, once your `HEAD` is equal to that commit, the mentioned issue will be closed. With that said, you can simply close issues within a commit message title. [Read more about this feature on GitHub](https://docs.devart.com/studio-for-sql-server/source-controlling-databases/associating-commits-with-github-issues.html).
+
+```shell
+$ git commit -m 'deprecation fixed Closes #215'
+```
+
+> Shout out to [Conor Sheehan](@ConorSheehan1) for mentioning this feature!
+
+#### 2.5. Don't use emojis
+I've seen some repositories have their own conventions in case of making commit messages. They actually use emojis to show the status of a commit whether it's a Bugfix or Test or whatever kind of commit.
 
 I personally avoid using emojis in my commit messages. You may have contributors from different platforms and interfaces. Since emojis use special ASCII codes (not commonly used and supported in the text-based interfaces like CLIs) and Unicode systems and most command-line interfaces need a third-party package or font to handle them, this convention might not look good to everyone. They might face some issues in terms of reading histories and checking the commit messages. (Like the emoji character in the message title might be rendered as its actual ASCII code or unknown question marks)
 
@@ -33,7 +43,7 @@ In this case, the best practice is to use a prefix pattern to show the category 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651236152821/JxWytytL3.png align="center")
 
-#### 2.5. Message description
+#### 2.6. Message description
 If you stage your changes and open the text editor once you want to commit your changes to submit a message, you can actually add some more information about the commit itself like necessities, bugs, TODOs (maybe), and so on. The title section is still the most important part of the commit message. In spite the description section is optional, feel free to write descriptions for your commits. If your changes are a bit complex that needs more explanations, you can write more about the different aspects of your changes in the description section.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651237976985/Xi1FFKFOW.png align="center")
