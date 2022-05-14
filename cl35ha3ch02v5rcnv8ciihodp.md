@@ -67,7 +67,7 @@ You can install the required packages either on your local site-packages or in a
 pip3 install -r requirements.txt
 ```
 
-#### 5.3. Start the compose
+#### 5.4. Start the compose
 Make sure your Docker Daemon is working fine and your Docker service is running with the following command on Linux distributions.
 
 ```shell
@@ -80,13 +80,13 @@ Then, start pulling the images and run a container in the background.
 docker-compose up -d
 ```
 
-#### 5.4. Customize the configurations
+#### 5.5. Customize the configurations
 Open `settings/configs.py` file in a text editor and make changes. The default configuration might be fine for the rest of the project and your tests.
 
-#### 5.5. Start producing and consuming
+#### 5.6. Start producing and consuming
 You can change the variable `MESSAGE` from `settings/configs.py` to make your own message pattern with some additional features like `amount` and `delay`. Once you made your changes, open two fresh terminal tabs and run both `producer.py` and `consumer.py` each after another. Since `producer.py` declares the queue, make sure you run the producer module first. For more message fields, check out `settings/volumes.py`. Make sure you use the exact key name as your message field.
 
-#### 5.6. Preview
+#### 5.7. Preview
 We finally reached the end and this is a quick run with the default configurations of the project. As you can see, we are producing the messages to the queue on the left side, and on the other side, we are consuming messages from the queue at the same time. **Unlike this preview, you better run the producer first. I'm running the consumer first because my exchange is already defined and yours might not**.
 
 ![2022-05-13_21-08-27.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1652463979306/eav6lFh1x.gif align="center")
