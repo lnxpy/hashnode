@@ -15,7 +15,7 @@ Basically, events get called by either an AI agent or a human. Thinking of an AI
 ### 3. Consumers
 We figured out that our AI agent produces the message for us. They are responsible for publishing messages to the queues. On the other hand, we got services that are considered as consumers. Just like producers, consumers are interacting with queues as well but the difference is that producers produce the messages through the queues but consumers pull the messages from the queues.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652472343094/igpqvEvTf.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652512365765/3np3Y8k0-.png align="center")
 
 ### 4. RabbitMQ
 In the Event-Driven systems, there are multiple tools that come in handy in case of designing our systems. Each tool might be useful based on the performance measures that the scenario requires. Some may use [Apache Kafka](https://kafka.apache.org/) and some developers might find [RabbitMQ](https://www.rabbitmq.com/) useful in their case. The idea is the same but the implementation might be different. In this article, we'll talk about RabbitMQ and at the end, we will take a look at a Python project that shows its integrity with an event-based design.
