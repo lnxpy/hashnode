@@ -43,7 +43,7 @@ In RabbitMQ, we have another middleware called Exchange that places right betwee
 Since we need only one queue and one route, we are going to use the Direct Exchange in our project. These exchange types are actually different techniques of routing messages to the queues. Most of them are being used in system designs with multiple queues.
 
 ### 5. Event-Driven Architecture Open-Source Project
-In this open-source project, we'll use [Docker](https://docker.com) in order to set up our RabbitMQ service and expose it to the `localhost` so that we can access the service from the local ports. The project is written in Python. This project is made for educational purposes only. To make this architecture much easier to understand for audiences and users. 
+In this open-source project, we'll use [Docker](https://docker.com) in order to set up our RabbitMQ service and expose it to the `localhost` so that we can access the service from the local ports. The project is written in Python. This project is made for educational purposes only. The aim is to make this architecture much easier to understand for audiences and users. 
 
 #### 5.1. Install docker and docker-compose
 
