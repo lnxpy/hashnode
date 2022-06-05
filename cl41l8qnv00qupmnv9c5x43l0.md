@@ -144,7 +144,7 @@ from requests import get
 
 def get_data(link, index):
     response = get(f'{link}/{index}')
-    return get
+    return response
 ```
 
 In our `tests.py`, we need to test the `get_data()` function. Normally, my test will fail when the `link` is not reachable and the server might be the issue. This is how we mock that functionality.
