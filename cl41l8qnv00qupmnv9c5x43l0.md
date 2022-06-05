@@ -5,7 +5,7 @@ In this article, I'll help you to understand the basics of unit testing in Pytho
 ### 1. Software Testing & Unit Tests
 Software testing is a stage where we test our project to make sure it raises the proper exceptions, returns the expected values, evaluates the entities properly, and so on. We can test our project in different ways. That's why we have multiple testing solutions. One of those solutions is called Unit Testing.
 
-In a car, we have multiple electrical control units. We have the radio unit, lights, battery, battery charger, different systematic modules, etc. Whenever you face an issue in the electric system, you can simply check each unit to find the issue. This approach is more useful when your units are related to each other like when the radio needs the power coming from the battery. When the radio is not working as expected, you need to check both the battery unit and the radio one to find the issue. Imagine there was a software that was testing every single unit of your car and preparing you a report out of the tests! I would bye that.
+In a car, we have multiple electrical control units. We have the radio unit, lights, battery, battery charger, different systematic modules, etc. Whenever you face an issue in the electric system, you can simply check each unit to find the issue. This approach is more useful when your units are related to each other like when the radio needs the power coming from the battery. When the radio is not working as expected, you need to check both the battery unit and the radio one to find the issue. Imagine there was a software that was testing every single unit of your car and preparing you a report out of the tests! I would buy that.
 
 We know what units are like for now. Every project is made up of different units. The integrity between these units makes an integration system that has its own testing solution called Integration Testing. Let's get back to the units and testing itself.
 
@@ -16,7 +16,7 @@ Many developers are struggling when it comes to writing tests like your project 
 
 - __With tests, fix bugs before implementing__. In Test-driven Development, developers try to design tests before they get their hands dirty with the actual implementation. They test a feature before they even add it to the project. Once it passed the tests statistically and logically, they merge it.
 
-- __Tests are like documents__. With clean tests, you'll increase the maintainability of your project and the new developers can easily understand the different parts of the project by reading the tests and finding each part's requirements. When someone reads the tests, he/she understands what that unit is supposed to do. That's where Guido Van Rossum says:
+- __Tests are like documents__. With clean tests, you'll increase the maintainability of your project and the new developers can easily understand the different parts of the project by reading the tests and finding each part's requirements. When someone reads the tests, he understands what that unit is supposed to do. That's where Guido Van Rossum says:
 
 > Code is read more often than it is written.
 
@@ -86,7 +86,7 @@ Ran 3 tests in 0.010s
 OK
 ```
 
-Those dots at the beginning of the result shows the status of each test execution. It shows that it found three tests and all those tests are passed. There will be three `F`s other than three dots if all our tests fail. There is another situation where you might get `E`. It means that there is a problem with your test itself like there might be a syntax error or typo issue inside your test.
+Those characters at the beginning of the result show the status of each test execution. It shows that it found three tests and all those tests are passed. There will be `F` per each test failure other than a dot. There is another situation where you might get `E`. It means that there is a problem with your test itself like there might be a syntax error or typo issue inside your test.
 
 ### 5. DAMP & DRY Principles in Your Tests
 These two famous principles allow you to write clean and easy-to-understand tests. In this part, we'll talk about the beautiful names you can choose for your test cases and we'll be using the `setUp()` method to improve our tests.
@@ -129,7 +129,7 @@ class TestCar(unittest.TestCase):
 That's how you observe the DRY principle with `setUp()` method in your tests. For more information about these methods, check out [setUp() & tearDown() in Python Unit Testing](https://imsadra.me/setup-and-teardown-in-python-unit-testing).
 
 ### 6. Mocks
-Mocking is not a test solution. It's actually part of some testing systems. Some projects may have mocks, some may not. With mocks, you can virtualize some necessities that your test may need in order to test a feature of the project.
+Mocking is not a test solution. It's actually part of some testing systems. Some projects may have mocks, some may not. With mocks, you can simulate some necessities that your test may need in order to test a feature of the project.
 
 As an example, imagine you have a function in your project that makes an HTTP request to an API and serializes the returned data. Now, you want to test the serialization phase by writing unit tests. What if that server crashes at the time you run your test? Your test will fail for sure but there is no room for blaming your project's feature right? It was not its fault. It was the server's crash that made your test fail.
 
@@ -176,7 +176,7 @@ class DiscoveryTest(TestCase):
 if __name__ == '__main__': main()
 ```
 
-At first, this implementation might look a bit confusing. We are basically mocking the `get()` entity from the `dicovery` module as you can see in the patch decorators then, we specify the return value that we expect for the test.
+At first, this implementation might look a bit confusing. We are basically mocking the `get()` entity from the `discovery` module as you can see in the patch decorators then, we specify the return value that we expect for the test.
 
 In the `unittest` package, you can use mocks in different ways. You can implement them as decorators, context managers, or even purely in the `setUp` and `tearDown` methods. I prefer using decorators as it's more readable in my opinion.
 
