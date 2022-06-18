@@ -93,5 +93,5 @@ We finally reached the end and this is a quick run with the default configuratio
 
 [Feel free to have contributions to my project. It needs improvements for sure. I can't make it perfect on my own](https://github.com/lnxpy/event-driven-in-python).
 
-### 6. Conclusion
+### Conclusion
 In this article, we talked about one of the most common architectures on the web. We found out how services keep their clients (consumers) updated and how they handle the different occurrences (events) happening in the real life. And at the end, we stepped way further and realized the concepts in a real project.
