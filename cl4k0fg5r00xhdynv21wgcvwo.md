@@ -11,13 +11,13 @@ I assume you are already familiar with some basic development tools and platform
 ### 1. How to Start the Journey
 In this section, we are going to talk about some tips before you start contributing to the Open Source.
 
-- **Be humble and sociable**. An open-source community is where members from all across the world are grouped together to help each other and make an awesome solution for a problem existing in the real world. Everyone is contributing with love. Many of them are not paid to contribute. Being kind and affable in open source communities is the most positive ethical habit. Since you may not be familiar with other regions' cultures, so always be kind and respectful.
+- **Be humble and sociable**. An open-source community is where members from all across the world are grouped together to help each other and make awesome solutions for the problems existing in the real world. Everyone is contributing with love. Many of them are not paid to contribute. Being kind and affable in open source communities is the most positive ethical habit. Since you may not be familiar with other regions' cultures, so always be kind and respectful.
 
 - **Always start small**. That's how you improve. When you start from small projects, you won't be stuck at much complexity and the development path and issues are much more sensible compared to the bigger tools.
 
 - **Find the active projects**. As a contributor, you are happy with a project that has active maintainers and communities so your changes will be reviewed quickly and your questions will be answered faster. You can choose whatever project you find cool for contribution. Make sure they are not abandoned and they do accept contributions. Check out the `README` and/or the `CONTRIBUTING` file in the repository. You may look for the projects that your product relies on or even you may contribute to more popular projects to make a better resume and career experience.
 
-- **Contribution is not just contributing to the actual code**. Many tools have their documentation in different languages. The documentation section is where most new contributors start their contributions from. You can find typo issues or even start translating the entire document into another language for example. Since many projects refuse to develop their testing scripts, writing their tests is another good way to start.
+- **Contribution is not just contributing to the actual code**. Many tools have their documentation in different languages. The documentation section is where most new contributors start their contributions from. You can find typo issues or even start translating the entire document into another language for example. Since many projects don't care about test developments sometimes, writing their tests is another good way to start.
 
 - **Using an open-source tool may make you a contributor**. You may work with an open-source tool/framework. You see that the tool you are using is showing some unusual errors and there is something wrong with the tool. You check its repository and you find the issue. You decide to work on it and fix that bug. That's counted as a contribution as well.
 
