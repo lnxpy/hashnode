@@ -15,7 +15,7 @@ As developers, we are always developing a system full of architectures, componen
 There is a well-structured RESTful service behind PasteMe which allows users to paste their snippets and code blocks to the powerful PlanetScale databases by using `pasteme-cli` package. The endpoints are designed responsively, meaning all developers from other platforms can build their own tools and interact with PasteMe's APIs in their products.
 
 #### 2.1. PasteMe webservice
-- Dynamic section showing the PyPi package statistics and GitHub repos' stars.
+- Dynamic section showing the PyPI package statistics and GitHub repos' stars.
 - Showing the pasted source codes in popular light and dark themes + line number.
 - An [asciinema](https://asciinema.org/) cast player showing the setup process and how you can start using PasteMe.
 - A perfect auto-generated API documentation for developers.
@@ -111,7 +111,7 @@ PasteMe supports various programming and markup languages for highlighting at th
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6956301808440860673" height="530" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-### 5. PyPi & GitHub Integrations
+### 5. PyPI & GitHub Integrations
 The **Py**thon **P**ackage **I**ndex, abbreviated as [PyPI](https://pypi.org/), is the official third-party software repository for Python. This is where `pasteme-cli` is archived as well. By checking the [home page of PasteMe](https://pasteme.pythonanywhere.com), you'll notice the following section.
 
 ![image (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658497433854/gRLtBx3Qp.png align="center")
@@ -137,4 +137,4 @@ I'm truly glad about the partnership between Hashnode and PlanetScale that made 
 - [Check out PasteMe LIVE](https://pasteme.pythonanywhere).
 - [Web service repository on Github](https://github.com/collove/pasteme).
 - [Python package repository on Github](https://github.com/collove/pasteme-cli).
-- [Python package on PyPi](https://pypi.org/project/pasteme-cli).
+- [Python package on PyPI](https://pypi.org/project/pasteme-cli).
