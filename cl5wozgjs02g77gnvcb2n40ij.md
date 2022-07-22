@@ -109,6 +109,8 @@ PasteMe supports various programming and markup languages for highlighting at th
 - Atom One Light Theme (e.g. `-T atom-one-light file.type`)
 - Atom One Dark Theme (e.g. `-T atom-one-dark file.type`)
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6956301808440860673" height="530" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### 5. PyPi & GitHub Integrations
 The **Py**thon **P**ackage **I**ndex, abbreviated as [PyPI](https://pypi.org/), is the official third-party software repository for Python. This is where `pasteme-cli` is archived as well. By checking the [home page of PasteMe](https://pasteme.pythonanywhere.com), you'll notice the following section.
 
