@@ -141,7 +141,7 @@ Both the package and web service have tests that make the development process wa
 I'm truly glad about the partnership between Hashnode and PlanetScale that made this awesome [July's Hackathon](https://townhall.hashnode.com/planetscale-hackathon)! Thanks for your awesome services and support. 🌹
 
 ### Useful Links
-- [Check out PasteMe LIVE](https://pasteme.pythonanywhere).
+- [Check out PasteMe LIVE](https://pasteme.pythonanywhere.com).
 - [Web service repository on Github](https://github.com/collove/pasteme).
 - [Python package repository on Github](https://github.com/collove/pasteme-cli).
 - [Python package on PyPI](https://pypi.org/project/pasteme-cli).
