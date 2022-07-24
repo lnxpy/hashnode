@@ -5,6 +5,8 @@
 
 > Legends claimed that this project is developed from space! So let's find out.
 
+- [Check out PasteMe; deployed on PythonAnyWhere services](https://pasteme.pythonanywhere.com)!
+
 #### 1.1. The point where all things began..
 I personally was familiar with [pastebin](https://en.wikipedia.org/wiki/Pastebin) services. Since I'm so into those black and dark interfaces and CLIs, I needed a piece of software that enables me to share my programming bugs, issues, or even gold code pieces with others in the community. I found some packages but I was looking for something fancier with more options until Hashnode announced an extraordinary Hackathon partnering with [PlanetScale](https://planetscale.com/) and that made me open a new fresh terminal tab immediately and run `$ git init` and start developing my idea named "PasteMe"!
 
@@ -129,6 +131,11 @@ In this section, we're going to talk about the tools and frameworks that I used 
 #### 6.2. Infrastructures
   - Deployed on [PythonAnyWhere](https://pythonanywhere.com) ([Check out PasteMe Live!](https://pasteme.pythonanywhere.com))
   - Database is powered by [PlanetScale](https://planetscale.com)
+
+### Development
+Both the package and web service have tests that make the development process way easier with a lower risk of failure. Keep up with the README/CONTRIBUTING docs and make your way towards the contribution.
+
+[Check out PasteMe's readme](https://github.com/collove/pasteme#service-installation) document for a complete local installation guide. You can also connect your locally cloned PasteMe to a PlanetScale FREE database by following the guide as well.
 
 ### Thanks
 I'm truly glad about the partnership between Hashnode and PlanetScale that made this awesome [July's Hackathon](https://townhall.hashnode.com/planetscale-hackathon)! Thanks for your awesome services and support. 🌹
