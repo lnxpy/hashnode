@@ -145,3 +145,7 @@ I'm truly glad about the partnership between Hashnode and PlanetScale that made 
 - [Web service repository on Github](https://github.com/collove/pasteme).
 - [Python package repository on Github](https://github.com/collove/pasteme-cli).
 - [Python package on PyPI](https://pypi.org/project/pasteme-cli).
+
+### Socials
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6956291231597346817" height="811" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
