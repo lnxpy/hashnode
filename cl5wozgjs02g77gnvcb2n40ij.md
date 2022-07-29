@@ -7,6 +7,8 @@
 
 - [Check out PasteMe; deployed on PythonAnywhere services](https://pasteme.pythonanywhere.com)!
 
+![Artboard 1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659101718796/5V_KdPj0V.png align="center")
+
 #### The point where all things began..
 I personally was familiar with [pastebin](https://en.wikipedia.org/wiki/Pastebin) services. Since I'm so into those black and dark interfaces and CLIs, I needed a piece of software that enables me to share my programming bugs, issues, or even gold code pieces with others in the community. I found some packages but I was looking for something fancier with more options until Hashnode announced an extraordinary Hackathon partnering with [PlanetScale](https://planetscale.com/) and that made me open a new fresh terminal tab immediately and run `$ git init` and start developing my idea named "PasteMe"!
 
