@@ -23,6 +23,7 @@ There is a well-structured RESTful service behind PasteMe which allows users to 
 - Showing the pasted source codes in popular light and dark themes + line number.
 - An [asciinema](https://asciinema.org/) cast player showing the setup process and how you can start using PasteMe.
 - A perfect auto-generated API documentation for developers.
+- A minimal weblog.
 
 #### 1.2. `pasteme-cli` Python package (SDK)
 - Available for Windows and Linux distributions.
