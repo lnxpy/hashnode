@@ -8,7 +8,7 @@ In [PlanetScale documentation](https://planetscale.com/docs/tutorials/connect-dj
 
 Long story short, I faced some issues the first time I tried connecting my Django project using the official method.
 
-- If you're using Git as your main VCS, you can see some conflicts due to the duplication of both your project-level `.git` directory and the fresh clone engine. You need to remove the `django_psdb_engine/.git` directory first!
+- If you're using Git as your main VCS, you can see some conflicts due to the duplication of both your project-level `.git` directory and the recent cloned engine. You need to remove the `django_psdb_engine/.git` directory first!
 
 - The next issue is with `mysqlclient` package which  django_psdb_engine requires to be able to work fine. You need to install it on your own. There might be a possibility of incompatibility between the `mysqlclient` version you establish with the cloned engine.
 
