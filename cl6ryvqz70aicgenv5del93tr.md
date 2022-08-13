@@ -37,7 +37,7 @@ Once your database is initialized, click the "Connect" button and get your crede
 
 Check out both `.env` and `settings.py` tabs. Make sure you've stored them in your project correctly.
 
-### Use django-psdb-engine Package
+### Connect Your Django Project
 Install `django-psdb-engine` package and update the `ENGINE` field from `settings.py`.
 
 ```sh
