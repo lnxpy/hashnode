@@ -69,4 +69,4 @@ $ python manage.py migrate
 ```
 
 ### Final Word
-Hope this quick walking-through guide helped you build your first PlanetScale database and connect your Django project to it.
+Hope this quick walk-through guide helped you build your first PlanetScale database and connect your Django project to it.
