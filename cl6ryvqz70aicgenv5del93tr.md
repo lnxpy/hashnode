@@ -60,7 +60,7 @@ DATABASES = {
 }
 ```
 
-Since the MySQL engine uses utf8bm3 charset and it’s not supported by PlanetScale’s engine yet, you may need to add `{'charset': 'utf8bm4'}` to `OPTIONS` in order to migrate your changes with no problem.
+Since the MySQL engine uses utf8mb3 charset and it’s not supported by PlanetScale’s engine yet, you may need to add `{'charset': 'utf8mb4'}` to `OPTIONS` in order to migrate your changes with no problem.
 
 Finally, migrate changes and enjoy using your new database.
 
