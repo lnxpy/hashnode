@@ -60,7 +60,17 @@ DATABASES = {
 }
 ```
 
-Since the MySQL engine uses utf8mb3 charset and it’s not supported by PlanetScale’s engine yet, you may need to add `{'charset': 'utf8mb4'}` to `OPTIONS` in order to migrate your changes with no problem.
+### Charset Option
+New PlanetScale databases are created on MySQL 8. PlanetScale only supports `utf8`, `utf8mb4`, and `utf8mb3` character sets.
+
+Since the charset field is set to `utf8` by default which points to `utf8mb3` and [it's deprecated in MySQL 8](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-sets.html), you may need to add `{'charset': 'utf8mb4'}` to `OPTIONS` in order to migrate your changes with no problem. `utf8mb4` is supported by both MySQL 8 and PlanetScale.
+
+```diff
+...
+-'OPTIONS': {'ssl': {'ca': os.environ.get('MYSQL_ATTR_SSL_CA')}}
++'OPTIONS': {'ssl': {'ca': os.environ.get('MYSQL_ATTR_SSL_CA')}, 'charset': 'utf8mb4'}
+...
+```
 
 Finally, migrate changes and enjoy using your new database.
 
