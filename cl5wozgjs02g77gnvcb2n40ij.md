@@ -73,7 +73,7 @@ Now, I want to paste everything inside the `if` statement only and keep it for o
 $ pasteme ... -s 5 -x 1m program.py
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438013249/XF3fZ7c2H.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438842863/D45XxRXOy.png align="center")
 
 ### 3. Language & Theme Support
 PasteMe supports various programming and markup languages for highlighting at the moment. You can paste your source codes in different popular themes as well!
@@ -116,7 +116,7 @@ $ pasteme ... -x (1d/1w/1m) main.c
 ### 5. PyPI & GitHub Integrations
 The **Py**thon **P**ackage **I**ndex, abbreviated as [PyPI](https://pypi.org/), is the official third-party software repository for Python. This is where `pasteme-cli` is archived as well. By checking the [home page of PasteMe](https://pasteme.pythonanywhere.com), you'll notice the following section.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438459988/uBseDSGvY.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438984188/1DErYc8u-.png align="center")
 
 There is a model called `Statistic` in `pypi` application of the project which is responsible for storing all statistics gathered from api.github.com and https://pypistats.org/api. Therefore, I designed a scheduled task that runs a [custom command](https://docs.djangoproject.com/en/4.0/howto/custom-management-commands/) every day at a specific time and that command actually updates the `Statistic` model by creating a new record to the table based on the information responded from the endpoints.
 
