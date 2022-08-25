@@ -128,7 +128,7 @@ In this section, we're going to talk about the tools and frameworks that I used 
 
 #### 5.1. Frameworks & Tools
 - Django Framework (Python back-end framework) + DRF
-- Bootstrap Framework (Integrated with Django's template engine)
+- TailwindCSS Framework (Integrated with Django's template engine)
 - [Pylibrary Cookiecutter](https://github.com/ionelmc/cookiecutter-pylibrary) (to develop the `pasteme-cli` Python package)
 
 #### 5.2. Infrastructures
