@@ -23,13 +23,13 @@ There is a well-structured RESTful service behind PasteMe which allows users to 
 - Showing the pasted source codes in popular light and dark themes + line number.
 - An [asciinema](https://asciinema.org/) cast player showing the setup process and how you can start using PasteMe.
 - A perfect auto-generated API documentation for developers.
-- A minimal weblog.
+- A minimal Markdown weblog.
 
 #### 1.2. `pasteme-cli` Python package (SDK)
 - Available for Windows and Linux distributions.
 - Minimum dependency.
 - Easy to set up and use.
-- Accessible from your CLIs and within your Python projects as a package.
+- Accessible from your CLIs and within your Python projects as a library.
 
 ### 2. Start Pasting
 In order to use PasteMe, simply install the `pasteme-cli` package via either [pip package manager](https://pip.pypa.io/en/stable/installation/) or by building the package source and dive through the codes.
@@ -42,17 +42,7 @@ $ pip install pasteme-cli
 $ pasteme --help
 ```
 
-| **Option** 	|  **Long**  	|  **Default**  	|             **Description**             	|
-|:----------:	|:----------:	|:-------------:	|:---------------------------------------:	|
-|   **-t**   	|   --title  	|   "Untitled"  	|               Paste Title               	|
-|   **-l**   	| --language 	|   PlainText   	|  Source code language for highlighting  	|
-|   **-T**   	|   --theme  	| Default Light 	|               Paste theme               	|
-|   **-s**   	|   --start  	|   first line  	| Source code starting line	|
-|   **-e**   	|    --end   	|   last line   	| Source code ending line      |
-|   **-v**   	|  --verbose 	|     False     	|               More details              	|
-|   **-h**   	|   --help   	|       -       	|               Help command              	|
-
-Imagine I have a Python function in my `program.py` that doesn't print out the greetings message for some reason. Let's paste it and share it.
+Imagine I have a Python function in my `program.py` file that doesn't print out the greetings message for some reason. Let's paste it using PasteMe!
 
 ```python
 def hello_world(name):
@@ -66,24 +56,24 @@ if __name__ == '__main__':
 I open a new terminal/cmd tab. Since I'm an Atom (A popular text editor) fan, I want to paste it with the `atom one dark` theme.
 
 ```shell
-$ pasteme -t "My hello_world() doesn't show the message!!" -l python -T atom-one-dark program.py
+$ pasteme -t "My hello_world() doesn't show the messages" -l python -T atom-one-dark program.py
 PASTE --> https://pasteme.pythonanywhere.com/paste/2425b
 $
 ```
 
 Right after running that command, I can see the URL to my paste. Let's browse it.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658493956883/K_9PlVXPC.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438088780/CXfTh_Wel.png align="center")
 
 And volla!
 
-Now, I want to paste everything inside the `if` statement only. I simply use `-s` (or `--start`) for this purpose. (Use `-e` to specify the ending line)
+Now, I want to paste everything inside the `if` statement only and keep it for one month.
 
 ```shell
-$ pasteme ... -s 5 program.py
+$ pasteme ... -s 5 -x 1m program.py
 ```
 
-![image (3).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658505548560/WEW649DA_.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438013249/XF3fZ7c2H.png align="center")
 
 ### 3. Language & Theme Support
 PasteMe supports various programming and markup languages for highlighting at the moment. You can paste your source codes in different popular themes as well!
@@ -116,22 +106,29 @@ PasteMe supports various programming and markup languages for highlighting at th
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6956301808440860673" height="530" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-### 4. PyPI & GitHub Integrations
+### 4. Expiry Feature
+Time for bad news! There is a limitation for your pastes. The snippets you paste into PasteMe can live for one week by default however you can increase it up to one month or even decrease it to one day!
+
+```sh
+$ pasteme ... -x (1d/1w/1m) main.c
+```
+
+### 5. PyPI & GitHub Integrations
 The **Py**thon **P**ackage **I**ndex, abbreviated as [PyPI](https://pypi.org/), is the official third-party software repository for Python. This is where `pasteme-cli` is archived as well. By checking the [home page of PasteMe](https://pasteme.pythonanywhere.com), you'll notice the following section.
 
-![image (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658497433854/gRLtBx3Qp.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661438459988/uBseDSGvY.png align="center")
 
 There is a model called `Statistic` in `pypi` application of the project which is responsible for storing all statistics gathered from api.github.com and https://pypistats.org/api. Therefore, I designed a scheduled task that runs a [custom command](https://docs.djangoproject.com/en/4.0/howto/custom-management-commands/) every day at a specific time and that command actually updates the `Statistic` model by creating a new record to the table based on the information responded from the endpoints.
 
-### 5. Technologies Used in PasteMe
+### 6. Technologies Used in PasteMe
 In this section, we're going to talk about the tools and frameworks that I used to build up PasteMe.
 
-#### 5.1. Frameworks & Tools
+#### 6.1. Frameworks & Tools
 - Django Framework (Python back-end framework) + DRF
 - TailwindCSS Framework (Integrated with Django's template engine)
 - [Pylibrary Cookiecutter](https://github.com/ionelmc/cookiecutter-pylibrary) (to develop the `pasteme-cli` Python package)
 
-#### 5.2. Infrastructures
+#### 6.2. Infrastructures
   - Deployed on [PythonAnywhere](https://pythonanywhere.com) ([Check out PasteMe Live!](https://pasteme.pythonanywhere.com))
   - Database is powered by [PlanetScale](https://planetscale.com)
 
