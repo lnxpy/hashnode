@@ -1,4 +1,4 @@
-## Threading & Fair Race With MutEx
+## Threading & Fair Race w/ MutEx
 
 We all know that threading changed the way of task execution entirely. Since every masterpiece has its consequences, threading is not counted as an exception. In this article, we'll discover the dependent threads and the way that threads manage their access to a shared resource meanwhile making changes to it.
 
