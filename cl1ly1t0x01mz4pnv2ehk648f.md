@@ -1,4 +1,4 @@
-## setUp() & tearDown() in Python Unit Testing
+## setUp & tearDown in Python Unit Testing
 
 I'm pretty sure you've already used/seen unit tests in the projects before. Have you ever wondered about how Django actually prepares you an isolated environment for testing your project without affecting other resources like your database? Before we jump into the actual `django.test.TestCase`, I'm going to talk about some unit test's magics in Python.
 
