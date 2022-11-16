@@ -1,4 +1,4 @@
-## Event-Driven Architecture in Python
+# Event-Driven Architecture in Python
 
 Consider you're following your favorite soccer competition via Google's services. For example, if you browse for FCV vs PSG, you'll get the online status from the field. Whatever happens in the game, all users will be notified about it as well. What is the architecture behind these event-based systems? How do companies like Google keep their services aware of the events happening in sports competitions?
 
