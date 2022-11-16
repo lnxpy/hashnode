@@ -1,4 +1,4 @@
-## How Context Manager Works in Python
+# How Context Manager Works in Python
 
 A necessary skill of being a team member is the ability of making reusable tools. As a project core developer, you need to be able to satisfy your requirements by making new implementations. You actually make a public pattern that's available for others in usage cases. You make a class that all you need is only an object from that class in your project.
 
