@@ -1,4 +1,4 @@
-## The Power of Django ORM
+# The Power of Django ORM
 
 Object Relational Mapping functions and methods help you to interact with the database in an optimized way. Here, we are going to take a look at its features and things that you better know as a Django developer.
 
