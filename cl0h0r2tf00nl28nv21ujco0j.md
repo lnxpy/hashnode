@@ -1,4 +1,4 @@
-## Python Closures; Also Known as Small Classes
+# Python Closures; Also Known as Small Classes
 
 Are you an OOP guy? Always using OOP to solve the problems even if you don't actually need it? Well, it was at this moment that Python Closures was released!
 
