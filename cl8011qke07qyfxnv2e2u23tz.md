@@ -1,4 +1,4 @@
-## Automate Your Python Package Release w/ GitHub Actions
+# Automate Your Python Package Release w/ GitHub Actions
 
 You're probably developing your Python package on GitHub and you use `sdist` and `twine` to make a new build and upload it to pypi.org. Then, you create a new release in the package repository. What if you could automate this process and your new package gets uploaded to PyPI automatically once you create a new release on GitHub?! That's what we're going to talk about today.
 
