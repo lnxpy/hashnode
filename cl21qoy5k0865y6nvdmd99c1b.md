@@ -1,4 +1,4 @@
-## Dynamic Contents on GitHub README
+# Dynamic Contents on GitHub README
 
 One of the coolest GitHub Actions abilities is to run a CI task to do some operations to repositories. For example, you can show the weather status on your project's readme and schedule the execution time. Eventually, you can step way further with help of this amazing tool. In this article, we are going to first, learn some basics and find a perspective about Actions and then, do some magic.
 
