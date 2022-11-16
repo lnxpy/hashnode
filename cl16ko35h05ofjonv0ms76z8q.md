@@ -1,4 +1,4 @@
-## Lights, Camera, GitHub Actions
+# Lights, Camera, GitHub Actions
 
 In this article, we are going to discover this cool GitHub feature with a simple scenario that GitHub Actions will help us maintaining that. What's more, I show you why GitHub Actions is not a CI/CD tool. After you got familiar with the techs and basics, we will hop into the real-world issues and implement everything we talked about in a Pythonic way.
 
