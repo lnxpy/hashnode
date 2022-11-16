@@ -1,4 +1,4 @@
-## Connect Your Django Projects to PlanetScale Databases
+# Connect Your Django Projects to PlanetScale Databases
 
 ### TL;DR
 [PlanetScale](https://planetscale.com/) is a MySQL-compatible serverless database platform. Since its database service is a bit different from the actual MySQL, there are some limitations that you can't ignore and must resolve to be able to work with their services. This post is an introduction to [django-psdb-engine](https://pypi.org/project/django-psdb-engine/) package which allows you to resolve PlanteScale's limitations and connect your Django project to your PlanetScale databases with no pain.
