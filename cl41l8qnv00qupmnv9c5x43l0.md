@@ -1,4 +1,4 @@
-## Unit Testing in Python & Best Practices
+# Unit Testing in Python & Best Practices
 
 In this article, I'll help you to understand the basics of unit testing in Python and then, we'll talk about the awesome practices that make your tests way more understandable and maintainable. If you are looking for a point to start writing tests for your Python projects, here we are. Without further ado, let's see some magic.
 
