@@ -8,7 +8,7 @@ Let's be fair. Unfortunately, although COVID took so many lives including one of
 
 ### Started My Career Remotely
 
-We have been dealing with COVID since 2019. We all passed through tough situations. I was not enough experienced in working yet. In 2022, I applied for my first job interview. It was an office job at first but a massive COVID wave turned it into a remote job unexpectedly. I had no idea what a REMOTE JOB is going to look like under the heavy atmosphere of the lockdown and how I was supposed to collaborate remotely! Frankly, That was a huge shock to me.
+We have been dealing with COVID since 2019. We all passed through tough situations. I was not enough experienced in working yet. In 2022, I applied for my first job interview. It was an office job at first but a massive COVID wave turned it into a remote job unexpectedly. I had no idea what a REMOTE JOB is going to look like under the heavy atmosphere of the lockdown and how I was supposed to collaborate remotely! Frankly, that was a huge shock to me.
 
 Thanks to COVID, I experienced my first-ever job, remotely. I could've collaborated with my co-workers at the office.. meet them in person but yea. <mark>I chose to learn that COVID lesson</mark> other than meeting my first teammates in person. <mark>Life never goes the way we want</mark>!
 
@@ -20,11 +20,11 @@ COVID forced me to change my expectations, my schedules, and even all my plans. 
 
 ### Lockdown Helped Me Start Writing
 
-I was so upset about life. Even though I had started a new position, life meant nothing to me! There was nothing enjoyable in life for me anymore. To keep pace with life and get myself sorted after his death, as my dear mother advised me, <mark>I tried writing</mark>.
+I was so upset about life. Even though I had started a new career position, life meant nothing to me! There was nothing enjoyable in life for me anymore. To keep pace with life and get myself sorted after his death, as my dear mother advised me, <mark>I tried writing</mark>.
 
 I was so busy with my work. I had not enough time to build up my own personal website and keep writing there. At that time, <mark>I found </mark> [<mark>Hashnode</mark>](https://hashnode.com) <mark> to be a great choice</mark>!
 
-I started writing, I got great engagements at the start. Blog post after blog post. One of my first blog posts got even featured on [daily.dev](https://daily.dev/). That was a huge positive vibe for me!
+I started writing, I got great engagements at the start. Blog post after blog post. One of my very first blog posts got even featured on [daily.dev](https://daily.dev/). That was a huge positive vibe for me!
 
 A lot of my friends were playing video games together during the lockdown. Meanwhile, I was designing a banner for my next blog post.
 
@@ -32,7 +32,7 @@ A lot of my friends were playing video games together during the lockdown. Meanw
 
 After writing a couple of articles on Hashnode, thanks to Hashnode's community, I was getting more and more engagements day by day from you, nice fellows. It was nothing but pure joy! That feels great to see people reading your words, and valuing your statements!
 
-So, to get better and get to know more awesome people, I kept writing <mark>consistently</mark>. I started collaborating on Hackathons and Writeathons as well! That was a fun time spent on open-source projects. I was introduced to so many awesome ideas and projects as well!
+So, to get better and get to know more awesome people, I kept writing <mark>consistently</mark>. I started collaborating on Hackathons and Writeathons as well! That was a fun time spent on open-source projects. I was introduced to so many awesome projects and people as well!
 
 Recently, I talked about the impact of keep doing something <mark>consistently</mark> compared to <mark>overdoing</mark> it. You can [read it here](https://imsadra.me/burnout-the-time-you-hate-everything).
 
@@ -42,7 +42,7 @@ After finishing high school, I was quite experienced in programming but not conf
 
 I had always been thinking that I was not ready yet. Working at a company; on a real-world project takes me more experience and I'm not that guy yet! That feeling made me procrastinate a little bit and apply for my first job a few years later.
 
-After a few weeks of working remotely, I was thinking of a way that I could follow to help newbies treat and deal with that feeling easier by collaborating and contributing to open-source projects till they get better, get more skilled and nail their job interviews!
+Years later, after a few weeks of working remotely, I was thinking of a way that I could follow to help newbies treat and deal with that feeling easier by collaborating and contributing to open-source projects till they get better, get more skilled, and nail their job interviews!
 
 It's been a few months since I founded **<mark>Collove</mark>**, you can read more about this lovely community [here](https://collove.codes).
 
