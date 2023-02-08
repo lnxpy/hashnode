@@ -61,8 +61,8 @@ Head back to your weblog main page and you should see the result. If it's not ap
 
 ### This Trick Might be Expensive
 
-Depending on the image size and the scale you specify for your image and lots of other components, it might be a costly request. Since there is no caching in this case, that might be a better choice to use a static image from Hashnode's official CDN. A good trick is that can upload an image in one of your drafts, then look for the URL to that image and use it as your blog header's background image.
+Depending on the image size and the scale you specify for your image and lots of other components, it might be a costly request. Since there is no caching in this case, that might be a better choice to use a static image from Hashnode's official CDN. A good trick is that you can upload an image in one of your drafts, then look for the URL to that image and use it as your blog header's background image.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675809162013/d160b8bd-9469-4d25-a84d-6e72877b4760.png align="center")
 
-Thanks for following up toward the end. Hope you enjoyed this trick and could add more beauty elements to the main page of your blog.
+Thanks for following up toward the end. Hope you enjoyed this trick and could add more beauty elements to the main page of your blog although your profile avatar has already made that page quite beautiful.
