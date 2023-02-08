@@ -57,7 +57,7 @@ Now, scroll down and hit "**Save Styles**" and finally "**Publish**" and it's do
 
 Head back to your weblog main page and you should see the result. If it's not appearing yet, check it out in Incognito. It might affect a few minutes later due to caching and CDN reasons.
 
-**Note**: If you don't want the background image to be fixed while scrolling, simply comments out the third line of the above code snippet.
+**Note**: If you don't want the background image to be fixed while scrolling, simply comment out the third line of the above code snippet.
 
 ### This Trick Might be Expensive
 
