@@ -3,7 +3,7 @@ title: "Learning: Tutorials vs. Documentations"
 datePublished: Thu Apr 06 2023 18:34:22 GMT+0000 (Coordinated Universal Time)
 cuid: clg5gj62u000109leamr2e8u8
 slug: learning-tutorials-vs-documentations
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680805538108/b8ef0f10-834c-45c4-ac59-7c9997ba980f.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680806148393/02843838-5d74-442f-9669-f3c561456925.png
 tags: tutorial, documentation, learning, howtos, learning-journey
 
 ---
