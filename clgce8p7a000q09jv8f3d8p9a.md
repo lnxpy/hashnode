@@ -24,11 +24,11 @@ Hope this short introduction helps you get into the Pythonic use of `Ellipsis` e
 
 ### Ellipsis in Literature and Language
 
-In terms of punctuation, Ellipses have special meanings and you have to make sure of the way you use them. There are some points you need to be careful about. By the way, Ellipses is the plural form of ellipsis.
+In terms of punctuation, ellipses have special meanings and you have to make sure of the way you use them. There are some points you need to be careful about. By the way, ellipses is the plural form of ellipsis.
 
 #### Indicating a pause in speech
 
-You might've seen this type of Ellipses usage so many times through books and novels. Check the following examples.
+You might've seen this type of ellipses usage so many times through books and novels. Check the following examples.
 
 * Hmm.. not really. She used to be a successful manager back in the day. \[pause due to thinking\]
     
@@ -39,7 +39,7 @@ As you can see, we have pauses throughout our sentences meaning the speaker had 
 
 #### Showing a part of someone's exact quotation
 
-Another famous use case of Ellipses backs to when we want to mention a part of someone's speech and we don't need to or have to write down his whole speech. It's more of putting attention to a phrase from the speech which relates more to the topic.
+Another famous use case of ellipses backs to when we want to mention a part of someone's speech and we don't need to or have to write down his whole speech. It's more of putting attention to a phrase from the speech which relates more to the topic.
 
 * The greatest glory in living lies not in never falling... \[we don't need the second part of the quote\]
     
@@ -55,9 +55,9 @@ Make sure not to change the meaning of the quotes via ellipsis. The following us
 
 As you can see here, the ellipsis changed the meaning of the sentence entirely. The reason for his fall wasn't that company but it looks so in the sentence with the ellipsis.
 
-Don't use Ellipses for chopping and sticking different parts of a sentence together. It changes the meaning as you noticed from the earlier example.
+Don't use ellipses for chopping and sticking different parts of a sentence together. It changes the meaning as you noticed from the earlier example.
 
-Now, it's time for the Pythonic side. Hopefully, this short literature introduction has given you a proper insight into Ellipses.
+Now, it's time for the Pythonic side. Hopefully, this short literature introduction has given you a proper insight into ellipses.
 
 ### Ellipsis in Python
 
@@ -78,7 +78,7 @@ Ellipsis
 
 Ellipses might not look beneficial enough in variable assignments. I'm not talking about arguments or type-hinting situations yet.
 
-In the function bodies though, Ellipses work just like `pass`.
+In the function bodies though, ellipses work just like `pass`.
 
 ```python
 >>> def greet(name: str) -> str:
@@ -119,7 +119,7 @@ class Color:
 
 #### Ellipsis in annotations
 
-A common use of Ellipses in Python is in annotations and type hinting which is fully described in [PEP484](https://peps.python.org/pep-0484/). Ellipsis is mainly used for annotating `Tuple` and `Callable` typed arguments or returning value.
+A common use of ellipses in Python is in annotations and type hinting which is fully described in [PEP484](https://peps.python.org/pep-0484/). Ellipsis is mainly used for annotating `Tuple` and `Callable` typed arguments or returning value.
 
 The following annotation for `calc_average` shows that the function takes an argument called `numbers` which is meant to be a Tuple of *only* three integer values.
 
@@ -198,7 +198,7 @@ class Car:
 
 #### Ellipsis as unit test bodies
 
-Another interesting use case of ellipsis in Python is that you can use them as the body of your unfinished unit tests just in case they don't break the whole testing system. Overall, it's fine to use Ellipses for your function's body if it's an isolated function and not related to or required by other components.
+Another interesting use case of ellipsis in Python is that you can use them as the body of your unfinished unit tests just in case they don't break the whole testing system. Overall, it's fine to use ellipses for your function's body if it's an isolated function and not related to or required by other components.
 
 The main criterion for a unit test function is that it has to be isolated so feel free to use ellipses as their bodies.
 
