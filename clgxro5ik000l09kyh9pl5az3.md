@@ -95,7 +95,7 @@ If you're using Zshell (ZSH), run the following command instead.
 $ echo "export MINDSDB_EMAIL_ADDRESS=<EMAIL>" >> ~/.zshrc
 ```
 
-Run `hey --set-password` followed by your MindsDB account password.
+Close the terminal and reopen it to redefine the environment variables. Run `hey --set-password` followed by your MindsDB account password.
 
 ```plaintext
 $ hey --set-password <PASSWORD>
