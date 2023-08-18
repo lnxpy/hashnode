@@ -217,6 +217,11 @@ And that's it. With a little bit of changing the `main.py` and `action.yml` file
 
 ### Useful Links
 
+Here is the PyAction repository on GitHub. Don't forget drop by and show us your love by giving the project a little shiny star. :)
+
+* [PyAction on GitHub](https://github.com/lnxpy/cookiecutter-pyaction)
+    
+
 The example that I brought you here today is available on my GitHub repository as well. You can check it for the sake of more clarity.
 
 * [Hello World project using PyAction on GitHub](https://github.com/lnxpy/pyaction-hello-world)
