@@ -1,8 +1,8 @@
 ---
-title: "Python 3.12 is Happening..!"
+title: "Python3.12 is Happening..!"
 datePublished: Tue Aug 22 2023 13:19:14 GMT+0000 (Coordinated Universal Time)
 cuid: cllmc1gj9000509jt8cr93f8s
-slug: python-312-is-happening
+slug: python312-is-happening
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692704680328/48e40195-d51f-4f46-9df5-9cecf315d818.png
 tags: news, python, python3, update, release-notes
 
