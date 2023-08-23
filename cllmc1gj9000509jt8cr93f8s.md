@@ -32,7 +32,7 @@ phrase = f"Hello {
 # Hello Sadra
 ```
 
-> IMO: This is a handy one. As you can see, you can expand your f-strings as well as document your multiline them via comments. That's amazing!
+> IMO: This is a handy one. As you can see, you can expand your f-strings as well as document them via comments. That's amazing!
 
 ### Tokenization is Re-written in C
 
@@ -101,7 +101,7 @@ class B(A):
 
 For instance, in the above example, if you make a typo issue and change `B.greet` to `B.great`, your `mypy` would most likely return a non-zero output in the STDOUT meaning the method that's meant to be overridden is not defined in the base class.
 
-> IMO: I find this little trick quite useful actually. Also including a `mypy` execution in your CI pipeline would help you catch such issues.
+> IMO: I find this little trick quite useful actually. Also including a `mypy` execution in your CI pipelines would help you catch such issues.
 
 ### New `type` Defining
 
