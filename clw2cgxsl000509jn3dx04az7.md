@@ -91,7 +91,7 @@ PyAction is delivered as a third-party package needed for your action to functio
 Make sure you have `pip` and `python>=3.8` available on your machine and run the following command to install `pyaction`.
 
 ```bash
-pip install -U pyaction
+pip install -U "pyaction[cli]"
 ```
 
 #### Creating a base template
@@ -102,7 +102,13 @@ It is highly recommended to use the `init` command to generate a base template f
 pyaction init
 ```
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Question</strong></p></td><td colspan="1" rowspan="1"><p><strong>Description</strong></p></td><td colspan="1" rowspan="1"><p><strong>Example</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>Action name</p></td><td colspan="1" rowspan="1"><p>Action name</p></td><td colspan="1" rowspan="1"><p>SMS Action</p></td></tr><tr><td colspan="1" rowspan="1"><p>Action's slug</p></td><td colspan="1" rowspan="1"><p>Slugged version of the <code>Action name</code> (better left with the default value)</p></td><td colspan="1" rowspan="1"><p>sms-action</p></td></tr><tr><td colspan="1" rowspan="1"><p>Short description</p></td><td colspan="1" rowspan="1"><p>Short description about the action</p></td><td colspan="1" rowspan="1"><p>Sending SMS Messages</p></td></tr><tr><td colspan="1" rowspan="1"><p>Author's name</p></td><td colspan="1" rowspan="1"><p>Author's name</p></td><td colspan="1" rowspan="1"><p>John Doe</p></td></tr><tr><td colspan="1" rowspan="1"><p>Include workflow testing pipeline</p></td><td colspan="1" rowspan="1"><p>Creates a <code>.github/workflows/test.yml</code> for self-testing the action</p></td><td colspan="1" rowspan="1"><p><code>y</code></p></td></tr></tbody></table>
+| **Question** | **Description** | **Example** |
+| --- | --- | --- |
+| Action name | Action name | SMS Action |
+| Action's slug | Slugged version of the `Action name` (better left with the default value) | sms-action |
+| Short description | Short description about the action | Sending SMS Messages |
+| Author's name | Author's name | John Doe |
+| Include workflow testing pipeline | Creates a `.github/workflows/test.yml` for self-testing the action | `y` |
 
 This prompting would give us the following action tree.
 
