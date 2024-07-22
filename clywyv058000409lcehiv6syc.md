@@ -33,7 +33,7 @@ Then I came up with a concept called "Focus Reading" or "Bionic Reading".
 
 Bionic solutions use technology inspired by nature to solve problems. Bionic Reading is one such method, designed to help people read more efficiently. It highlights parts of the text, making it easier for the eyes to follow and understand. By emphasizing key elements, Bionic Reading helps readers process information faster, reducing cognitive load and improving reading speed. This technique benefits those with attention difficulties and anyone wanting to enhance their reading skills and retention.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721653855199/e809af6c-88d6-445f-8d88-3d3d5f58d8fd.png align="center")
+![Sighted demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1721653855199/e809af6c-88d6-445f-8d88-3d3d5f58d8fd.png align="center")
 
 ### Usage
 
