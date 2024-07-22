@@ -33,6 +33,8 @@ Then I came up with a concept called "Focus Reading" or "Bionic Reading".
 
 Bionic solutions use technology inspired by nature to solve problems. Bionic Reading is one such method, designed to help people read more efficiently. It highlights parts of the text, making it easier for the eyes to follow and understand. By emphasizing key elements, Bionic Reading helps readers process information faster, reducing cognitive load and improving reading speed. This technique benefits those with attention difficulties and anyone wanting to enhance their reading skills and retention.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721653855199/e809af6c-88d6-445f-8d88-3d3d5f58d8fd.png align="center")
+
 ### Usage
 
 Sighted is available as an installable Python package. I designed it to be reusable and easy to install on various instances, making it compatible with front-end frameworks like React and Vue. This approach allows you to use Sighted even on language learning platforms.
