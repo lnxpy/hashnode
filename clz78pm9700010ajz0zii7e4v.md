@@ -3,7 +3,7 @@ title: "10 Python Easter Eggs"
 datePublished: Mon Jul 29 2024 17:05:23 GMT+0000 (Coordinated Universal Time)
 cuid: clz78pm9700010ajz0zii7e4v
 slug: 10-python-easter-eggs
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722270605983/bc8c942f-a224-4acd-96d9-e7cbfbd4839b.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722274117791/2a0c192a-ac8a-4dd4-9f17-3a87b4f5d572.png
 tags: software, python, python3, fun, best-practices, easter-eggs
 
 ---
