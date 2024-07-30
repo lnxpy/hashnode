@@ -20,7 +20,7 @@ import this
 
 Upon executing this code, you'll be greeted with the Zen of Python:
 
-```python
+```plaintext
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
