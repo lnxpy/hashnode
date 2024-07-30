@@ -86,7 +86,7 @@ if (n := len('walrus')) > 5:
 
 Output:
 
-```python
+```plaintext
 The length of 'walrus' is 6
 ```
 
@@ -103,7 +103,7 @@ from __future__ import barry_as_FLUFL
 
 Output:
 
-```python
+```plaintext
 True
 ```
 
@@ -124,7 +124,7 @@ import __hello__
 
 Output:
 
-```python
+```plaintext
 Hello world!
 ```
 
@@ -147,7 +147,7 @@ Instead of enabling braces, this code raises a `SyntaxError` with the message "n
 
 Output:
 
-```python
+```plaintext
   File "<stdin>", line 1
     from __future__ import braces
                                   ^
@@ -168,7 +168,7 @@ timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
 
 Output:
 
-```python
+```plaintext
 0.28043669999999996
 ```
 
@@ -184,7 +184,7 @@ import __phello__.world
 
 Output:
 
-```python
+```plaintext
 Hello world!
 ```
 
@@ -202,7 +202,7 @@ print(a, b)
 
 Output:
 
-```python
+```plaintext
 2 1
 ```
 
@@ -210,7 +210,7 @@ Output:
 
 In Python 3.9, `__peg_parser__` would throw a syntax error with a certain message of "You found it!".
 
-```bash
+```plaintext
 >>> __peg_parser__
   File "<stdin>", line 1
     __peg_parser__
