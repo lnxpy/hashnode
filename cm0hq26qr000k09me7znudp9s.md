@@ -4,7 +4,6 @@ datePublished: Sat Aug 31 2024 05:48:27 GMT+0000 (Coordinated Universal Time)
 cuid: cm0hq26qr000k09me7znudp9s
 slug: how-i-made-it-to-the-2nd-product-of-the-day-on-product-hunt
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724603395333/5585c779-5949-4b42-8d04-880a03ac7637.png
-tags: hackathon, startups, startup, github, python, opensource, business, entrepreneurship, product, producthunt, experience, success, product-hunt, entrepreneur, success-story
 
 ---
 
