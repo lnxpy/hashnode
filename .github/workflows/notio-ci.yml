@@ -19,10 +19,13 @@ jobs:
       - name: Running Notio
         uses: lnxpy/notio@main
         with:
-          method: generate-questions
-          path: article_questions/
-          question_limit: 15
-          include_answers: true
+          # method: generate-questions
+          # path: article_questions/
+          # question_limit: 15
+          # include_answers: true
+          method: translate-article
+          path: dutch/
+          translate_to: Dutch
           hypermode_endpoint: ${{ secrets.HYPERMODE_ENDPOINT }}
           hypermode_api_token: ${{ secrets.HYPERMODE_API_TOKEN }}
 
