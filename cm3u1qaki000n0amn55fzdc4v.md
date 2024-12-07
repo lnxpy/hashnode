@@ -46,6 +46,10 @@ I tried to use tables to put badges in them but you can’t put images inside th
 
 There is no recovery feature yet. If you delete any part of your document, you can't retrieve it back. Tagging and versioning in documents are very important features. Fortunately, Hashnode offers "Revision History" for blogs. I hope they add the same functionality for documents soon, perhaps with the ability to tag specific states of the docs.
 
+#### No translation feature
+
+If you want to translate your docs into another language, there is currently no feature available for that.
+
 ### Things I Love About Hashnode Docs
 
 I switched to Hashnode Docs for a reason. Let's look at what really caught my attention and convinced me to move to Hashnode Docs.
